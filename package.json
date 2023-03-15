@@ -1,0 +1,9 @@
+{
+  "packageManager": "yarn@3.4.1",
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
