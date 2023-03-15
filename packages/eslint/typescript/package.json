@@ -1,0 +1,14 @@
+{
+  "name": "@vetan2/eslint-config-typescript",
+  "packageManager": "yarn@3.4.1",
+  "main": "eslint.config.js",
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "@vetan2/eslint-config-base": "workspace:^",
+    "eslint-import-resolver-typescript": "^3.5.3"
+  }
+}

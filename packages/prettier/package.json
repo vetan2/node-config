@@ -1,0 +1,8 @@
+{
+  "name": "@vetan2/prettier-config",
+  "packageManager": "yarn@3.4.1",
+  "main": "prettier.config.js",
+  "peerDependencies": {
+    "prettier": "*"
+  }
+}

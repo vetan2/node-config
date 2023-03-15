@@ -1,0 +1,12 @@
+{
+  "name": "@vetan2/eslint-config-base",
+  "packageManager": "yarn@3.4.1",
+  "main": "eslint.config.js",
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}

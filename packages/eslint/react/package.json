@@ -1,0 +1,13 @@
+{
+  "name": "@vetan2/eslint-config-react",
+  "packageManager": "yarn@3.4.1",
+  "main": "eslint.config.js",
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "dependencies": {
+    "@vetan2/eslint-config-typescript": "workspace:^",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
