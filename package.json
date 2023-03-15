@@ -1,4 +1,7 @@
 {
+  "name": "@vetan2/node-config",
+  "version": "0.0.1",
+  "private": true,
   "packageManager": "yarn@3.4.1",
   "workspaces": [
     "packages/**/*"
