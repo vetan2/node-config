@@ -6,10 +6,17 @@
   "workspaces": [
     "packages/**/*"
   ],
+  "scripts": {
+    "version:patch": "yarn workspaces foreach version patch",
+    "version:minor": "yarn workspaces foreach version minor",
+    "version:major": "yarn workspaces foreach version major",
+    "release": "turbo run release"
+  },
   "devDependencies": {
     "@vetan2/eslint-config-base": "workspace:^",
     "@vetan2/prettier-config": "workspace:^",
     "eslint": "^8.36.0",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.4",
+    "turbo": "^1.8.3"
   }
 }
