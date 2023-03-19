@@ -1,0 +1,5 @@
+undecided:
+  - "@vetan2/node-config"
+  - "@vetan2/eslint-config-base"
+  - "@vetan2/eslint-config-react"
+  - "@vetan2/eslint-config-typescript"
